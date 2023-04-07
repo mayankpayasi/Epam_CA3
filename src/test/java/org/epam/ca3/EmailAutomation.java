@@ -23,7 +23,7 @@ public class EmailAutomation {
     public void setUp() throws IOException {
         // Loading config.properties file
         prop = new Properties();
-        FileInputStream fis = new FileInputStream("E:/Maven/CA3_Email_Automation/src/test/java/org/epam/ca3/config.properties");
+        FileInputStream fis = new FileInputStream("C:/Users/mayank/Downloads/EmailAutomation-main/EmailAutomation-main/src/test/java/org/epam/ca3/config.properties");
         prop.load(fis);
     }
 
